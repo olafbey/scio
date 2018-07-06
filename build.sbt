@@ -552,6 +552,7 @@ lazy val scioParquet: Project = Project(
   )
 ).dependsOn(
   scioCore,
+  scioAvro,
   scioSchemas % "test",
   scioTest % "test->test"
 )
