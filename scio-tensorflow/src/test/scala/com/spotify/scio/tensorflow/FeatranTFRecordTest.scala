@@ -22,7 +22,8 @@ import com.spotify.featran.tensorflow._
 import com.spotify.featran.transformers.Identity
 import com.spotify.featran.{FeatureSpec, MultiFeatureSpec}
 import com.spotify.scio._
-import com.spotify.scio.testing.{PipelineSpec, ProtobufIO, TextIO}
+import com.spotify.scio.avro._
+import com.spotify.scio.testing._
 import org.apache.beam.sdk.io.Compression
 import org.tensorflow.example.Example
 import org.tensorflow.metadata.v0.{FixedShape, Schema, SparseFeature}
